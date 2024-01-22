@@ -4,12 +4,14 @@
 ## 原理
 这种方法在更新解时，如果新解比当前解更优则接受，否则基于Metropolis准则判断是否接受：
 
-$$\begin{equation*}
+$$
+\begin{equation*}
     P=\begin{cases}
         1, E_{t+1}<E_{t}\\
         e^{\frac{-(E_{t+1}-E_{t})}{kT}}, E_{t+1}\ge E_t
     \end{cases}
-\end{equation*}$$   
+\end{equation*}
+$$   
 
 如果当前解是`x_t`，对应的目标函数值（系统能量）是`E_t`，对搜索点施加随机扰动得到`x_t+1`和`E_t+1`。系统会以上式中的P为概率用`x_t+1`替代`x_t`。
 
