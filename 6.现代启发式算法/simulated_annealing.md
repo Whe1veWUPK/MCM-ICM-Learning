@@ -5,8 +5,8 @@
 这种方法在更新解时，如果新解比当前解更优则接受，否则基于Metropolis准则判断是否接受：
 
 $$P=\begin{cases}
-        1, E_{t+1}<E_{t}\\
-        e^{\frac{-(E_{t+1}-E_{t})}{kT}}, E_{t+1}\ge E_t
+1, E_{t+1}<E_{t}\\
+e^{\frac{-(E_{t+1}-E_{t})}{kT}}, E_{t+1}\ge E_t
 \end{cases}$$
 
 
