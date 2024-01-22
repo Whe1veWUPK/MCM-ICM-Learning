@@ -6,11 +6,10 @@
 
 $$
 P=\begin{cases}
-    1, \text{if }E_{t+1}<E_{t}\\
+    1, \text{if }E_{t+1}< E_{t}\\
     e^{\frac{-(E_{t+1}-E_{t})}{kT}},\text{if }E_{t+1}\geq E_t
 \end{cases}
 $$
-
 
 如果当前解是`x_t`，对应的目标函数值（系统能量）是`E_t`，对搜索点施加随机扰动得到`x_t+1`和`E_t+1`。系统会以上式中的P为概率用`x_t+1`替代`x_t`。
 
