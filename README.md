@@ -1,2 +1,2 @@
 # MCM-ICM-Learning
-This project is a MCM/ICM learning material by G(Geishin Impact) H(Honkai Impact) A(Arknights) Team.
+This project is a MCM/ICM learning material by G(Genshin Impact) H(Honkai Impact) A(Arknights) Team.
