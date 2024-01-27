@@ -7,11 +7,11 @@
 这种方法下，简单地判断x来自于哪一个类的概率较大，即通过**后验概率**P(ω|x)的对比来进行判断（即，x发生的条件下ω发生的概率，ω是一个分类），认为x属于后验概率最大的那个分类。对于只有两个分类的情况下，可以用如下方法判别（推导过程略）：
 
 $$
-x \in \omega _{1} \space \space \space if \space \space \space l_{12}(x)=\frac{p(x|\omega _{1})}{p(x|\omega _{2})}> \frac{p(\omega _{2})}{p(\omega _{1})}
+x \in \omega _{1} \space \space \space if \space \space \space l12(x)=\frac{p(x|\omega _{1})}{p(x|\omega _{2})}> \frac{p(\omega _{2})}{p(\omega _{1})}
 $$
 
 $$
-x \in \omega _{2} \space \space \space if \space \space \space l_{12}(x)=\frac{p(x|\omega _{1})}{p(x|\omega _{2})}< \frac{p(\omega _{2})}{p(\omega _{1})}
+x \in \omega _{2} \space \space \space if \space \space \space l12(x)=\frac{p(x|\omega _{1})}{p(x|\omega _{2})}< \frac{p(\omega _{2})}{p(\omega _{1})}
 $$
 
 不等式左边称为似然比，不等式右边称为判决阈值。
